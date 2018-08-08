@@ -1,0 +1,187 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--<link rel="stylesheet" type="text/css" href="../../www/{$templateWebPath}css/style.css">-->
+        <script type="text/javascript" src="/www/js/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="/www/js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="animate.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<script src="script.js"></script>
+        <title>Admin</title>
+    </head>
+    <body style="color: white;">
+        <script src="lightbox-plus-jquery.js"></script>
+
+<div class="block1">
+    <h1 id="NamePage1"  class="wow jackInTheBox" data-wow-delay="1s" >Login success</h1>
+<script src="lightbox-plus-jquery.js"></script>
+<div class="imag" style="margin-top: 70px;"><img src="logo-footer1.png"></div><br>  
+</div>
+<div style="
+  height: 1900px;   background: url('depositphotos_28142151-stock-photo-art-abstract-black-and-white.jpg');">
+<div class="block" style=" padding: 10px;
+  margin: 20px; margin-top: 0px; ">
+  <div class="box2" style="background:url('Dark-Grey-Background-Photo-HD-Wallpaper-2nwk9-Free.jpeg') 100% 100% no-repeat;
+   background-size: cover; border:0;">
+        <div>
+            <input class="admininput" type="button" onClick="" value="Новости" />
+            <input class="admininput" type="button" onClick="" value="Роботи" />
+            <input class="admininput" type="button" onClick="" value="Цены" />
+            <input class="admininput" type="button" onClick="" value="Заказы" />
+        </div>
+    <form action="/www/?controller=tattoos&action=download" method="post" enctype="multipart/form-data">
+            <select name="sara">
+        <option  value="tattoo" selected>Татуировки</option><!--label="Электроник"-->
+	<option value="makeup">Перманентный макияж</option>
+        <option value="piercing">Пирсинг</option><!--disabled-->
+        <option value="deltattoos">Удаление тату</option>
+        <option value="bodyart">Боди-арт</option>
+</select>
+        <p>Файл:</p><input style="width: 340px; border-radius:8px;"   type="file" name="filename"/>
+        <input class="admininput" type="submit"  value="Загрузить"/><br>
+</form>
+        <form action="/www/?controller=admin&action=news" method="post">
+        <p>Заголовок:</p><input class="admininput" style="width: 400px;" type="textarea" name="textupc"/>
+        <p>Текст:</p><textarea class="admininput" style="width: 700px; height:300px;" name="textup"></textarea>
+        <br>
+        <input class="admininput" type="submit"  value="Изменить"/><br>
+</form>
+</div>
+        <div class="box2" style="background:url('Dark-Grey-Background-Photo-HD-Wallpaper-2nwk9-Free.jpeg') 100% 100% no-repeat;
+   background-size: cover; border:0;">
+        <input class="admininput type="button" onClick="logout();" value="Выйти" />
+        <div class="box2" style="background:url('Dark-Grey-Background-Photo-HD-Wallpaper-2nwk9-Free.jpeg') 100% 100% no-repeat;
+   background-size: cover; border:0;" style="width: 90%">
+            <form class="box2" style="background:url('Dark-Grey-Background-Photo-HD-Wallpaper-2nwk9-Free.jpeg') 100% 100% no-repeat;
+   background-size: cover; border:0;" action="/www/?controller=admin&action=calendar" method="post">
+<input style="border: 3px white solid;border-radius: 8px; width: 250px; color: white;" name='date' type="date" name="">
+<table class="price" style="background:url('Dark-Grey-Background-Photo-HD-Wallpaper-2nwk9-Free.jpeg') 100% 100% no-repeat;
+   background-size: cover;color: white;">
+	        <thead>
+            <tr>
+                <th>Година</th><br>
+                <select name="master_id" style="width: 300px; height: 50px; font-size:20px; border: 3px solid; ">
+                    {foreach $masters  as $item name=Masters}
+ <option  value="{$item['id']}" selected>{$item['name']}</option>
+    {/foreach}
+</select>
+                
+            </tr>
+        </thead>
+	        <thead>
+                    <tr>
+            	<th>9:00-10:00</th>
+
+<th><input  name ='9' type="checkbox" class="AdminTable" value="9">       </th>
+           </tr>
+        </thead>	        <thead>
+            <tr>
+            	<th>10:00-11:00</th>
+<th><input  name ='10' type="checkbox" class="AdminTable" value="10">       </th>
+            </tr>
+        </thead>	        <thead>
+            <tr>
+            	<th>11:00-12:00</th>
+<th><input  name ='11' type="checkbox" class="AdminTable" value="11">       </th>
+            </tr>
+        </thead>	        <thead>
+            <tr>
+            	<th>12:00-13:00</th>
+<th><input  name ='12' type="checkbox" class="AdminTable" value="12">       </th>
+            </tr>
+        </thead>	        <thead>
+            <tr>
+            	<th>13:00-14:00</th>
+<th><input  name ='13' type="checkbox" class="AdminTable" value="13">       </th>
+            </tr>
+        </thead>	        <thead>
+            <tr>
+            	<th>14:00-15:00</th>
+<th><input name ='14' type="checkbox" class="AdminTable" value="14">       </th>
+            </tr>
+        </thead>	        <thead>
+            <tr>
+            	<th>15:00-16:00</th>
+<th><input  name ='15' type="checkbox" class="AdminTable" value="15">       </th>
+            </tr>
+        </thead>	        <thead>
+            <tr>
+            	<th>16:00-17:00</th>
+<th><input  name ='16' type="checkbox" class="AdminTable" value="16">       </th>
+            </tr>
+        </thead>	        <thead>
+            <tr>
+            	<th>17:00-18:00</th>
+<th><input  name ='17' type="checkbox" class="AdminTable" value="17">       </th>
+            </tr>
+        </thead>	        <thead>
+            <tr>
+            	<th>18:00-19:00</th>
+<th><input  name ='18' type="checkbox" class="AdminTable" value="18">       </th>
+            </tr>
+        </thead>	        <thead>
+            <tr>
+            	<th>19:00-20:00</th>
+<th><input name ='19' type="checkbox" class="AdminTable" value="19" >       </th>
+            </tr>
+        </thead>
+         <thead>
+             <tr>
+            	<th>20:00-21:00</th>
+<th><input name ='20' type="checkbox" class="AdminTable" value="20">       </th>
+            </tr>
+        </thead>
+</table>
+
+<input name="name"  class="admininput" type="text" id="Cname" placeholder="Ім'я" ><br>
+<input name="surname" class="admininput" type="text" id="Csurname"placeholder="Фамілія"><br>
+<input name="phone" class="admininput" type="number" id="Tel" placeholder="Телефон"><br>
+<input name="email" class="admininput" type="email" id="email"placeholder="Електрона почта" ><br>
+<input name="price" class="admininput" type="number" id="sumprice"placeholder="Цена" ><br>
+            <select name="sara">
+    <option  value="tattoo" selected>Татуировки</option><!--label="Электроник"-->
+	<option value="makeup">Перманентный макияж</option>
+    <option value="piercing">Пирсинг</option><!--disabled-->
+    <option value="deltattoos">Удаление тату</option>
+    <option value="bodyart">Боди-арт</option>
+</select><br>
+<input class="admininput" type="submit" id="subcliente"style="width: 300px; height: 50px; font-size:20px;" value="Отправить">
+
+</form>
+</div>
+<input class="admininput" type="button" id="subcliente"style="width: 300px; height: 50px; font-size:20px;" value="Показать таблицу">
+<table border="1" style="color: black;">
+    <thead>
+        <tr>
+        {foreach $sales  as $key => $value name=Sales}
+            {foreach $value  as $keykey => $valvalue name=Sales}
+            <th>{$keykey}</th>
+    {/foreach}
+            <th>Удалить</th>
+{break}
+    {/foreach}        
+        </tr>
+    </thead>
+                            
+        {foreach $sales  as $key => $value name=Sales}
+                        <tr> 
+                        {foreach $value  as $keykey => $valvalue name=Sales}
+             
+            <td>{$valvalue}</td>
+                     {if $keykey=='id'}
+                     {$a[$key]= $valvalue}
+                {/if} 
+    {/foreach}
+        <td><a class="admininput" href="/www/?controller=admin&action=delsel&itemid={$a[$key]}">Удалить</a></td>
+                        </tr>
+                {/foreach} 
+
+                        
+</table>
+</div>
+</div>
+</div>
+    </body>
+</html>
+
